@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    width: 80%;
+    min-height: 300px;
+    box-shadow: 1px 1px 4px grey;
+    padding: 10px;
+}

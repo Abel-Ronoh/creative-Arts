@@ -3,27 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>creative arts</title>
+    <title>CREATIVE ARTS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="back"></div>
-    <div class="home">
-        <h2>Hello,</h2>
-        <h1>Welcome To Creative-Art Store</h1>
-        <h2>Where Magic Happens</h2>
-        <button>Be A Member</button>
+    
+    <audio id="bgAudio" autoplay loop>
+        <source src="./images/bg-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <section id="home">
+        <video autoplay muted loop id="video-bg">
+            <source src="./images/bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+        <h1>Welcome to creative Arts,</h1>
+        <h2>where creativity knows no bounds</h2>
     </div>
-    <div class="menu">
-    <nav>
-        <ul>
-            <a href=""><li>About Us</li></a>
-            <a href=""><li>Art Categories</li></a>
-            <a href=""><li>Artist Profiles</li></a>
-            <a href=""><li>Resources</li></a>
-            <a href=""><li>Contact</li></a>
-        </ul>
-    </nav>
-</div>
+    </section>
+    
+    <section id="about">
+        <div class="about">
+        <h2>About </h2>
+        <h2>Us</h2>
+        <div class="mission">
+        <h4>Our Mission</h4>
+        <p>At ArtVista, we're on a mission to foster a vibrant community of artists and art lovers alike.</p>
+        </div>
+        <a href="about.html"><button>Learn More</button></a>
+    </div>
+        <img src="./images/wb3.webp" alt="">
+    </section>
+
+    <section id="gallery">
+        <h2>Our Collection</h2>
+    <div>
+        <img src="./images/1.jpg" alt="">
+        <img src="./images/2.jpg" alt="">
+        <img src="./images/3.jpg" alt="">
+        <img src="./images/4.jpg" alt="">
+        <img src="./images/5.jpg" alt="">
+        <img src="./images/6.jpg" alt="">
+        <img src="./images/7.jpg" alt="">
+        <img src="./images/8.jpg" alt="">
+        <img src="./images/9.jpg" alt="">
+        <img src="./images/10.jpg" alt="">
+        <img src="./images/11.jpg" alt="">
+        <img src="./images/12.jpg" alt="">
+        <img src="./images/13.jfif" alt="">
+        <img src="./images/14.jfif" alt="">
+        <img src="./images/24.jfif" alt="">
+        <img src="./images/p1.webp" alt="">
+    </div>
+    </section>
+
+    <section id="history">
+        <video autoplay muted loop id="video-bg">
+            <source src="./images/bg4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="contents">
+        <h2>Art History</h2>
+        <table>
+            <tr>
+                <th>Artwork</th>
+                <th>Artist</th>
+                <th>Owner</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Mona Lisa</td>
+                <td>Leonardo da Vinci</td>
+                <td>Louvre Museum, Paris</td>
+                <td>1506 (estimated)</td>
+            </tr>
+            <tr>
+                <td>The Last Supper</td>
+                <td>Leonardo da Vinci</td>
+                <td>Santa Maria delle Grazie, Milan</td>
+                <td>1498</td>
+            </tr>
+            <tr>
+                <td>The Starry Night</td>
+                <td>Vincent van Gogh</td>
+                <td>Museum of Modern Art (MoMA), New York</td>
+                <td>1889</td>
+            </tr>
+            <tr>
+                <td>The Creation of Adam</td>
+                <td>Michelangelo</td>
+                <td>Sistine Chapel, Vatican City</td>
+                <td>1512 (estimated)</td>
+            </tr>
+            <tr>
+                <td>Guernica</td>
+                <td>Pablo Picasso</td>
+                <td>Reina Sofía Museum, Madrid</td>
+                <td>1937</td>
+            </tr>
+            <tr>
+                <td>The Scream</td>
+                <td>Edvard Munch</td>
+                <td>Various owners</td>
+                <td>1893-1910</td>
+            </tr>
+            <tr>
+                <td>The Birth of Venus</td>
+                <td>Sandro Botticelli</td>
+                <td>Uffizi Gallery, Florence</td>
+                <td>Mid-1480s (estimated)</td>
+            </tr>
+            <tr>
+                <td>The Persistence of Memory</td>
+                <td>Salvador Dalí</td>
+                <td>Museum of Modern Art (MoMA), New York</td>
+                <td>1931</td>
+            </tr>
+            <tr>
+                <td>Girl with a Pearl Earring</td>
+                <td>Johannes Vermeer</td>
+                <td>Mauritshuis, The Hague</td>
+                <td>1665 (estimated)</td>
+            </tr>
+            <tr>
+                <td>The Night Watch</td>
+                <td>Rembrandt</td>
+                <td>Rijksmuseum, Amsterdam</td>
+                <td>1642</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="" method="">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CREATIVE ARTS. All rights reserved.</p>
+    </footer>
+    <header>
+        <h1>CREATIVE ARTS</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#history">Art History</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="script.js"></script>
 </body>
 </html>
